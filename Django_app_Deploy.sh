@@ -67,7 +67,6 @@ fi
 # Deploy the app
 if ! deploy; then
     echo "Deployment failed. Mailing the admin..."
-    # Add your sendmail or notification logic here
     exit 1
 fi
 
